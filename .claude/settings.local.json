@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/myee/repos/zt-satellite-basics log --oneline -20)",
+      "Bash(git -C /Users/myee/repos/zt-satellite-basics branch -a)",
+      "Bash(gh pr:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(git fetch:*)",
+      "WebFetch(domain:docs.redhat.com)",
+      "Bash(git status *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git stash *)",
+      "WebSearch",
+      "WebFetch(domain:access.redhat.com)",
+      "Bash(git -C /Users/myee/repos/zt-satellite-basics branch)"
+    ]
+  }
+}
